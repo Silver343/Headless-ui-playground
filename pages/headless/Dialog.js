@@ -1,16 +1,16 @@
 import Head from 'next/head'
 
-export default function Menu() {
+export default function Dialog() {
   return (
     <div>
       <Head>
-        <title>Menu (Dropdown)</title>
+        <title>Dialog (Modal)</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1>
-          Menu (Dropdown)
+          Dialog (Modal)
         </h1>
 
       </main>

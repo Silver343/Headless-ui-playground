@@ -1,16 +1,16 @@
 import Head from 'next/head'
 
-export default function Menu() {
+export default function Listbox() {
   return (
     <div>
       <Head>
-        <title>Menu (Dropdown)</title>
+        <title>Listbox(Select)</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1>
-          Menu (Dropdown)
+          Listbox (Select)
         </h1>
 
       </main>

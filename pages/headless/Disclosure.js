@@ -1,16 +1,16 @@
 import Head from 'next/head'
 
-export default function Menu() {
+export default function Disclosure() {
   return (
     <div>
       <Head>
-        <title>Menu (Dropdown)</title>
+        <title>Disclosure</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1>
-          Menu (Dropdown)
+          Disclosure
         </h1>
 
       </main>

@@ -1,16 +1,16 @@
 import Head from 'next/head'
 
-export default function Menu() {
+export default function Switch() {
   return (
     <div>
       <Head>
-        <title>Menu (Dropdown)</title>
+        <title>Switch (Toggle))</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1>
-          Menu (Dropdown)
+          Switch (Toggle)
         </h1>
 
       </main>

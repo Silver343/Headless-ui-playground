@@ -1,16 +1,16 @@
 import Head from 'next/head'
 
-export default function Menu() {
+export default function RadioGroup() {
   return (
     <div>
       <Head>
-        <title>Menu (Dropdown)</title>
+        <title>Radio Group</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1>
-          Menu (Dropdown)
+          Radio Group
         </h1>
 
       </main>
