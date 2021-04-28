@@ -6,7 +6,7 @@ class MyDocument extends Document {
       <Html>
         <Head />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
-        <body>
+        <body className="bg-gray-800">
           <Main />
           <NextScript />
         </body>
