@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Menu() {
   return (
@@ -9,7 +10,13 @@ export default function Menu() {
       </Head>
 
       <main>
-        <h1>
+
+        <Link href="/">
+          <a className="m-6 text-gray-100">
+            Back
+          </a>
+        </Link>
+        <h1 className="m-6 text-gray-100 text-2xl text-center">
           Menu (Dropdown)
         </h1>
 
