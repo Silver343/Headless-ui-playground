@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Menu() {
+import { Menu } from '@headlessui/react'
+
+export default function DropDown() {
   return (
     <div>
       <Head>
         <title>Menu (Dropdown)</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
@@ -19,6 +20,25 @@ export default function Menu() {
         <h1 className="m-6 text-gray-100 text-2xl text-center">
           Menu (Dropdown)
         </h1>
+
+        <Menu>
+          <Menu.Button className="text-white">Menu Button</Menu.Button>
+          <Menu.Items>
+            <Menu.Item>
+            {({ active }) => (
+            <a
+              className={`${
+                active ? 'bg-pink-600 text-white' : 'bg-white text-black'
+              }`}
+              href="/account-settings"
+            >
+              Account settings
+            </a>
+          )}
+            </Menu.Item>
+          </Menu.Items>
+
+        </Menu>
 
       </main>
 
